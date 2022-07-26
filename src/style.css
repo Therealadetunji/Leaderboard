@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#basic-structure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#heading {
+  display: flex;
+  gap: 20px;
+}
+
+#refresh {
+  box-shadow: 2px 3px #000;
+}
+
+#display-scores {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+  padding: 3px 0 3px 5px;
+  margin-top: 7px;
+}
+
+#user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#submit {
+  display: flex;
+  align-self: flex-end;
+}
