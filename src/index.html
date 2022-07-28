@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Leaderboard Setup</title>
   </head>
   <body>
@@ -15,13 +14,9 @@
           <h2>Recent scores</h2>
           <button type="button" id="refresh">Refresh</button>
         </div>
-        <div id="display-scores">
-          <span>samson: 80</span>
-          <span>joshua: 70</span>
-          <span> codeReviwer: 0</span>
-        </div>
+        <div id="display-scores"></div>
       </div>
-      <form action="GET" id="user-form">
+      <form method="post" id="user-form">
         <label for="username" id="title">Add your Score</label>
         <input type="text" placeholder="Enter your name" id="username" />
         <input type="number" placeholder="Enter your score" id="score" />
