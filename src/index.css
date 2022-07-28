@@ -37,6 +37,11 @@ h1 {
   gap: 10px;
 }
 
+#each-score:nth-child(even) {
+  background-color: #000;
+  color: whitesmoke;
+}
+
 #submit {
   display: flex;
   align-self: flex-end;
