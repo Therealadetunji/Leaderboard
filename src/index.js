@@ -9,7 +9,7 @@ const showPage = document.querySelector('#display-scores');
 const displayScore = async () => {
   // fetching from the api using fetch() and awaiting the response
   const response = await fetch(
-    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/q6JDTAKTIqShhVc9wbL1/scores/'
+    'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/q6JDTAKTIqShhVc9wbL1/scores/',
   );
   // we want the response to be in .json() format
   const totalResult = await response.json();

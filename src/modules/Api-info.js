@@ -17,7 +17,7 @@ submitForm.addEventListener('submit', (e) => {
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
       },
-    }
+    },
   );
 
   enterName.value = '';
